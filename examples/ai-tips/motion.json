@@ -1,0 +1,11 @@
+{
+  "title": "5 habits for using AI chatbots safely",
+  "theme": "aurora",
+  "scenes": [
+    { "type": "intro", "seconds": 4, "tag": "Quick guide", "title": "Use AI safely", "highlight": "5 habits", "sub": "Small habits that keep **your data** yours" },
+    { "type": "stat", "seconds": 4, "value": 68, "unit": "%", "label": "of people **paste work text** into chatbots", "source": "illustrative number, not real data" },
+    { "type": "list", "seconds": 5, "title": "Before you hit send", "items": ["Remove **names and IDs**", "Never paste **passwords or keys**", "Check the **privacy settings**"] },
+    { "type": "point", "seconds": 4, "title": "Why it matters", "text": "Anything you paste may be **stored** and used to **improve the model**." },
+    { "type": "outro", "seconds": 4, "text": "Share this with\n**your team**!", "tags": ["#AIliteracy", "#PrivacyFirst"] }
+  ]
+}

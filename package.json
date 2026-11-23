@@ -1,0 +1,27 @@
+{
+  "name": "tokens-to-motion",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Design tokens + a JSON script → 9:16 motion-graphic reels (Remotion). Swap the theme file, keep the content.",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "storyboard": "node scripts/storyboard.mjs",
+    "render": "node scripts/render.mjs",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.539",
+    "@remotion/cli": "4.0.539",
+    "@remotion/google-fonts": "4.0.539",
+    "@remotion/renderer": "4.0.539",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.539"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  },
+  "license": "MIT"
+}
